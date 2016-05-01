@@ -1,6 +1,6 @@
 # WebWatch
 
-A tool to monitor changes in a website over time
+:eyeglasses: Customizable Periodic Web Scraping Automation and Aggregation
 
 ## How To Use
 
@@ -11,7 +11,7 @@ A tool to monitor changes in a website over time
 	* `observe` to a map of functions 
 		* The function should return the value you are trying to track
 		* The key of the map is the key under which the output of the function will be stored in the json database
-* Run `node index.js` and let your data grow
+* Run `node index.js` and let your data start coming in
 
 
 
@@ -19,4 +19,4 @@ A tool to monitor changes in a website over time
 
 * Add support for phantomJS so we can track changes made via JS
 * Add support for external DBs, like MongoDB
-* Add graph generation
+* Add automatic graph generation
